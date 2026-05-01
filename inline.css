@@ -81,7 +81,7 @@ footer .container{
 body{
   font-family:sans-serif;
   color: rgb(37, 41, 50);
-  background-color: rgb(25, 28, 35);
+  background-color: rgb(255, 255, 255);
   min-width: 960px;
 }
 
@@ -428,6 +428,69 @@ ul li img{
 .form-btn-box small{
   font-size: 8px;
   margin-bottom: 50px;
+}
+
+/* -------- */
+.readmore{
+  padding-bottom: 80px;
+}
+.readmore-title-box{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 80px 0 90px 0;
+}
+.readmore-title{
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 61px;
+}
+.readmore-btn{
+  color: white;
+  font-size: 20px;
+  background-color: #064c8c; border-color: #064c8c;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px 30px 20px 30px;
+  align-self: center;
+}
+.readmore-connect{
+  display: flex;
+  justify-content: center;
+}
+.connect-box{
+  text-align: center;
+  width: 100%;
+  height: 195px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.connect-box:first-child{
+  border-right: #ccd2dc 1px solid;
+}
+.connect-box h2{
+  font-size: 21px;
+  font-weight: bold;
+
+}
+.connect-box p{
+  font-size: 15px;
+  white-space: pre-line;
+}
+.tel{
+  font-size: 24px;
+  font-weight: bold;
+}
+.try-btn{
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  background-color: #ec6337; border-color: #ec6337;border-radius: 10px;
+  padding: 12px 20px 12px 20px;
+  align-self: center;
 }
 
 
