@@ -269,134 +269,137 @@
         </h2>
         <p>– 許禮麟 / 金田餐飲集團總經理</p>
       </div>
+      <!-- ! -->
       <section class="recruit-form">
       <div class="container">
-
-        <div class="form-introduce">
-          <h2>Hi 餐廳老闆</h2>
-          <p class="quote-text">此表單為提供餐廳試用系統，<span>我們無法提供代訂服務</span></p>
-          <p class="quote-text">消費者訂位、訂餐請 > <a href="https://www.opentable.com.tw/">查詢附近餐廳</a></p>
-          <p>
-            現在申請可享 14 天免費試用＋專人導入教學
-            快讓 inline app 成為您餐廳的最佳助手！
-          </p>
+        <div class="form">
+          <div class="form-introduce">
+            <h2>Hi 餐廳老闆</h2>
+            <p class="quote-text">此表單為提供餐廳試用系統，<span>我們無法提供代訂服務</span></p>
+            <p class="quote-text">消費者訂位、訂餐請 > <a href="https://www.opentable.com.tw/">查詢附近餐廳</a></p>
+            <p>
+              現在申請可享 14 天免費試用＋專人導入教學
+              快讓 inline app 成為您餐廳的最佳助手！
+            </p>
+          </div>  
+          <form action="" class="form-bar">
+            <div class="form-group">
+              <label>
+                聯絡人姓名（必填）
+                <input type="text" name="user-name" placeholder="e.g.Mayer" required>
+              </label>
+            </div>
+            <div class="form-group">
+              <label>
+                手機號碼（必填）
+                <input type="text" name="phone-number" placeholder="e.g.8526377XXXX" required>
+              </label>
+            </div>
+            <div class="form-group">
+              <label>
+                電子信箱（必填）
+                <input type="email" name="email" placeholder="e.g.welcome@inline.app" required>
+              </label>
+            </div>
+            <div class="form-group">
+              <label>
+                您的餐廳名稱（必填）
+                <input type="text" name="restaurant-name" placeholder="e.g.Mayer" required>
+              </label>
+            </div>
+            <div class="form-group">
+              <label>
+                您餐廳的所在國家（必填）
+                <select name="restaurant-country" id="restaurant-country">
+                  <option value="" disabled selected hidden>-請選擇國家-</option>
+                  <option value="australia">澳大利亞</option>
+                  <option value="canada">加拿大</option>
+                  <option value="hong-kong">香港</option>
+                  <option value="indonesia">印尼</option>
+                  <option value="japan">日本</option>
+                  <option value="south_korea">韓國</option>
+                  <option value="macau">澳門</option>
+                  <option value="malaysia">馬來西亞</option>
+                  <option value="new-zealand">紐西蘭</option>
+                  <option value="philippines">菲律賓</option>
+                  <option value="singapore">新加坡</option>
+                  <option value="taiwan">台灣</option>
+                  <option value="thailand">泰國</option>
+                  <option value="usa">美國</option>
+                  <option value="vietnam">越南</option>
+                </select>
+              </label>
+            </div>
+            <div class="form-group">
+              <label>
+                Street (Required)
+                <input type="text" name="street" required>
+              </label>
+            </div>
+            <div class="form-group">
+              <label>
+                您的職稱（必填）
+                <input type="text" name="job-title" required>
+              </label>
+            </div>
+            <div class="form-group">
+              <label>
+                是否有使用過其他訂候位管理系統？（必填）
+                <input type="text" name="competitor-usage" required>
+              </label>
+            </div>
+            <div class="form-group">
+              <label>
+                您對 inline 的哪個功能有興趣？（必填）
+                <select name="interested-features" id="interested-features">
+                  <option value="" disabled selected hidden>--請選擇--</option>
+                  <option value="none">--None--</option>
+                  <option value="booking-management">訂候位管理</option>
+                  <option value="takeout-delivery">外帶外送服務</option>
+                  <option value="both-interested">兩者皆有興趣</option>
+                </select>
+              </label>
+            </div>
+            <div class="form-group">
+              <label>
+                您是從哪裡獲得inline的資訊？（必填）
+                <select name="referral_source">
+                  <option value="" disabled selected hidden>--請選擇--</option>
+                  <option value="none">--None--</option>
+                  <option value="google-search">Google 搜尋</option>
+                  <option value="social-media">社群媒體（Facebook / Instagram...等）</option>
+                  <option value="web-ads">網站廣告</option>
+                  <option value="friend-referral">朋友介紹</option>
+                  <option value="other-restaurants">其他餐廳</option>
+                  <option value="opentable">Opentable</option>
+                  <option value="linkedin">LinkedIn</option>
+                  <option value="offline-events">線下活動</option>
+                  <option value="inline-sales-call">inline 專人電洽</option>
+                </select>
+              </label>
+            </div>
+            <div class="not-robot">
+              <label for="not-robot" class="not-robot-box">
+                <div>
+                  <input type="checkbox" name="not-robot" id="not-robot">我不是機器人 
+                </div>
+                <div class="not-robot-imgbox">
+                  <img src="../inline/logo_48.png" alt="not-robot" class="not-robot-img">
+                  <p>reCAPTCHA</p>
+                </div>
+              </label>
+            </div>
+            <div class="form-btn-box">
+              <button type="submit" class="form-btn">送出</button>
+              <small>
+                此表單為提供餐廳試用系統，請勿在此進行餐廳線上訂位，如需訂位請直接聯繫餐廳
+              </small>
+            </div>
+          </form>
         </div>
 
-        <form action="">
-          <div class="form-group">
-            <label>
-              聯絡人姓名（必填）
-              <input type="text" name="user-name" placeholder="e.g.Mayer" required>
-            </label>
-          </div>
-          <div class="form-group">
-            <label>
-              手機號碼（必填）
-              <input type="text" name="phone-number" placeholder="e.g.8526377XXXX" required>
-            </label>
-          </div>
-          <div class="form-group">
-            <label>
-              電子信箱（必填）
-              <input type="email" name="email" placeholder="e.g.welcome@inline.app" required>
-            </label>
-          </div>
-          <div class="form-group">
-            <label>
-              您的餐廳名稱（必填）
-              <input type="text" name="restaurant-name" placeholder="e.g.Mayer" required>
-            </label>
-          </div>
-          <div class="form-group">
-            <label>
-              您餐廳的所在國家（必填）
-              <select name="restaurant-country" id="restaurant-country">
-                <option value="" disabled selected hidden>-請選擇國家-</option>
-                <option value="australia">澳大利亞</option>
-                <option value="canada">加拿大</option>
-                <option value="hong-kong">香港</option>
-                <option value="indonesia">印尼</option>
-                <option value="japan">日本</option>
-                <option value="south_korea">韓國</option>
-                <option value="macau">澳門</option>
-                <option value="malaysia">馬來西亞</option>
-                <option value="new-zealand">紐西蘭</option>
-                <option value="philippines">菲律賓</option>
-                <option value="singapore">新加坡</option>
-                <option value="taiwan">台灣</option>
-                <option value="thailand">泰國</option>
-                <option value="usa">美國</option>
-                <option value="vietnam">越南</option>
-              </select>
-              <input type="text" name="restaurant-country" placeholder="e.g.Mayer" required>
-            </label>
-          </div>
-          <div class="form-group">
-            <label>
-              Street (Required)
-              <input type="text" name="street" required>
-            </label>
-          </div>
-          <div class="form-group">
-            <label>
-              您的職稱（必填）
-              <input type="text" name="job-title" required>
-            </label>
-          </div>
-          <div class="form-group">
-            <label>
-              是否有使用過其他訂候位管理系統？（必填）
-              <input type="text" name="competitor-usage" required>
-            </label>
-          </div>
-          <div class="form-group">
-            <label>
-              您對 inline 的哪個功能有興趣？（必填）
-              <select name="interested-features" id="interested-features">
-                <option value="" disabled selected hidden>--請選擇--</option>
-                <option value="none">--None--</option>
-                <option value="booking-management">訂候位管理</option>
-                <option value="takeout-delivery">外帶外送服務</option>
-                <option value="both-interested">兩者皆有興趣</option>
-              </select>
-            </label>
-          </div>
-          <div class="form-group">
-            <label>
-              您是從哪裡獲得inline的資訊？（必填）
-              <select name="referral_source">
-                <option value="" disabled selected hidden>--請選擇--</option>
-                <option value="none">--None--</option>
-                <option value="google-search">Google 搜尋</option>
-                <option value="social-media">社群媒體（Facebook / Instagram...等）</option>
-                <option value="web-ads">網站廣告</option>
-                <option value="friend-referral">朋友介紹</option>
-                <option value="other-restaurants">其他餐廳</option>
-                <option value="opentable">Opentable</option>
-                <option value="linkedin">LinkedIn</option>
-                <option value="offline-events">線下活動</option>
-                <option value="inline-sales-call">inline 專人電洽</option>
-              </select>
-            </label>
-          </div>
-          <div class="not-robot">
-            <label for="not-robot">
-              <input type="checkbox" name="not-robot" id="not-robot">
-              我不是機器人
-              <img src="../inline/logo_48.png" alt="not-robot">
-              <p>reCAPTCHA</p>
-            </label>
-          </div>
-          <div>
-            <button type="submit">送出</button>
-            <small>
-              此表單為提供餐廳試用系統，請勿在此進行餐廳線上訂位，如需訂位請直接聯繫餐廳
-            </small>
-          </div>
-        </form>
-
       </div>
-    </section>
+      </section>
     </section>
 
     
